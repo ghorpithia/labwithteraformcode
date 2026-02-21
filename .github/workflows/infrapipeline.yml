@@ -6,6 +6,10 @@ on:
   #     - feature/branch1
   workflow_dispatch:
 
+permissions:
+  id-token: write
+  contents: read
+
 jobs:
   terraform:
     runs-on: ubuntu-latest
