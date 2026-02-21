@@ -3,7 +3,7 @@ name: Terraform Azure RG VNet Deployment
 on:
   push:
     branches:
-      - main
+      - feature/branch1
 
 jobs:
   terraform:
