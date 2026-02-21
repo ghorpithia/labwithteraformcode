@@ -1,9 +1,9 @@
 name: Terraform Azure RG VNet Deployment
 
 on:
-  push:
-    branches:
-      - feature/branch1
+  # push:
+  #   branches:
+  #     - feature/branch1
   workflow_dispatch:
 
 jobs:
