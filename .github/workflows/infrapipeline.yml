@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - feature/branch1
+  workflow_dispatch:
 
 jobs:
   terraform:
